@@ -1,5 +1,7 @@
 # IAM Service Authorization
 
+:warning: This module is no longer maintained. Please use [terraform-ibm-s2s-auth](https://github.com/terraform-ibm-modules/terraform-ibm-s2s-auth) for configuring IBM Cloud IAM service to service authorization policies.
+
 Module to create an IBM Cloud IAM Authorization Policy that authorizes one cloud service to access another. An authorization policy is requried in a number of scenarios:
 
 - In order to encrypt the data in a hosted a **Databases for MongoDB** service with a particular key in **Key Protect**, the **Databases for MongoDB** service must be authorized with the `Reader` role to **Key Protect**.
